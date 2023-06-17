@@ -1,13 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import Footer from './components/footer';
 import Header from './components/header';
+import Question from './components/Question';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <h2>TO be done</h2>
+      <br />
+      <h2>TO be done1</h2>
+      <h2>TO be done2</h2>
+      <Question q_no={2} />
       <Footer />
     </div>
   );
